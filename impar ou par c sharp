@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Exercicio_01
+{
+    class Program
+    {
+     
+        static void Main(string[] args)
+        {
+
+            int numero;
+            Console.WriteLine("Impar ou Par?");
+            Console.WriteLine("Digite um numero!");
+            numero = Convert.ToInt32(Console.ReadLine());
+
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine("numero par" + numero);
+            }
+            else
+            {
+                Console.WriteLine("numero impar");
+            }
+            Console.ReadKey();
+        }
+    }
+}
